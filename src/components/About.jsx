@@ -42,19 +42,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Введение</p>
+        <h2 className={styles.sectionHeadText}>Обо мне.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Я — дизайнер с многолетним опытом работы в области графического и продуктового дизайна. Моя страсть заключается в создании визуальных решений, которые не только привлекают внимание, но и решают реальные задачи пользователей. Я умею сочетать эстетику с функциональностью, будь то разработка логотипов, упаковки или проектирование интерфейсов для цифровых продуктов. В своей работе я всегда ориентируюсь на потребности целевой аудитории, использую современные инструменты и следую актуальным трендам дизайна. Моя цель — создавать продукты, которые не только выглядят хорошо, но и приносят реальную ценность и удобство для пользователей.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
